@@ -16,6 +16,7 @@
 
     <!-- Custom CSS -->
     <link href="css/heroic-features.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -45,13 +46,28 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="#">About</a>
+                        <a href="#">Accueil</a>
                     </li>
                     <li>
-                        <a href="#">Services</a>
+                        <a href="#">Fleurs</a>
+                    </li>
+                    <li>
+                        <a href="#">Catégorie de bouquets</a>
+                    </li>
+                    <li>
+                        <a href="#">Occasions</a>
+                    </li>
+                    <li>
+                        <a href="#">Patience</a>
+                    </li>
+                    <li>
+                        <a href="#">Où récupérer ses fleurs</a>
                     </li>
                     <li>
                         <a href="#">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#">Panier</a>
                     </li>
                 </ul>
             </div>
@@ -62,85 +78,101 @@
 
     <!-- Page Content -->
     <div class="container">
-
-        <!-- Jumbotron Header -->
-        <header class="jumbotron hero-spacer">
-            <h1>A Warm Welcome!</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquam repellat.</p>
-            <p><a class="btn btn-primary btn-large">Call to action!</a>
-            </p>
-        </header>
-
-        <hr>
-
-        <!-- Title -->
-        <div class="row">
-            <div class="col-lg-12">
-                <h3>Latest Features</h3>
-            </div>
-        </div>
-        <!-- /.row -->
-
-        <!-- Page Features -->
+        
+        <!-- Panier + Affichage -->
         <div class="row text-center">
-
-            <div class="col-md-3 col-sm-6 hero-feature">
-                <div class="thumbnail">
-                    <img src="http://placehold.it/800x500" alt="">
-                    <div class="caption">
-                        <h3>Feature Label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        <p>
-                            <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
-                        </p>
+            <!-- Affichage de bouquets + fleurs -->
+            <div class="col-md-10 col-sm-12 hero-feature sameHeigth">
+                <!-- Bouquets -->
+                <div id="blocBouquets">                    
+                    <!-- Ligne de titre des bouquets -->
+                    <div class="row text-center">
+                        <div class="col-md-12 col-sm-12 hero-feature">
+                            <h1>BOUQUETS</h1>
+                        </div>
+                    </div>
+                    
+                    <!-- Ligne des images des bouquets -->
+                    <div class="row text-center">
+                        <div class="col-md-3 col-sm-12 hero-feature thumbnail">
+                            <img src="./images/fleurs.jpg" alt="Fleurs" class="imagesFleurs">
+                            <h2>Une fleur ...</h2>
+                            <h3>2€</h3>
+                        </div>
+                        <div class="col-md-3 col-sm-12 hero-feature thumbnail">
+                            <img src="./images/fleurs.jpg" alt="Fleurs" class="imagesFleurs">
+                            <h2>Une fleur ...</h2>
+                            <h3>2€</h3>
+                        </div>
+                        <div class="col-md-3 col-sm-12 hero-feature thumbnail">
+                            <img src="./images/fleurs.jpg" alt="Fleurs" class="imagesFleurs">
+                            <h2>Une fleur ...</h2>
+                            <h3>2€</h3>
+                        </div>
+                        <div class="col-md-3 col-sm-12 hero-feature thumbnail">
+                            <img src="./images/fleurs.jpg" alt="Fleurs" class="imagesFleurs">
+                            <h2>Une fleur ...</h2>
+                            <h3>2€</h3>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Fleurs -->
+                <div id="blocFleurs">                    
+                    <!-- Ligne de titre des bouquets -->
+                    <div class="row text-center">
+                        <div class="col-md-12 col-sm-12 hero-feature">
+                            <h1>FLEURS</h1>
+                        </div>
+                    </div>
+                    
+                    <!-- Ligne des images des Fleurs -->
+                    <div class="row text-center">
+                        <div class="col-md-3 col-sm-12 hero-feature thumbnail">
+                            <img src="./images/fleurs.jpg" alt="Fleurs" class="imagesFleurs">
+                            <h2>Une fleur ...</h2>
+                            <h3>2€</h3>
+                        </div>
+                        <div class="col-md-3 col-sm-12 hero-feature thumbnail">
+                            <img src="./images/fleurs.jpg" alt="Fleurs" class="imagesFleurs">
+                            <h2>Une fleur ...</h2>
+                            <h3>2€</h3>
+                        </div>
+                        <div class="col-md-3 col-sm-12 hero-feature thumbnail">
+                            <img src="./images/fleurs.jpg" alt="Fleurs" class="imagesFleurs">
+                            <h2>Une fleur ...</h2>
+                            <h3>2€</h3>
+                        </div>
+                        <div class="col-md-3 col-sm-12 hero-feature thumbnail">
+                            <img src="./images/fleurs.jpg" alt="Fleurs" class="imagesFleurs">
+                            <h2>Une fleur ...</h2>
+                            <h3>2€</h3>
+                        </div>
                     </div>
                 </div>
             </div>
-
-            <div class="col-md-3 col-sm-6 hero-feature">
-                <div class="thumbnail">
-                    <img src="http://placehold.it/800x500" alt="">
-                    <div class="caption">
-                        <h3>Feature Label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        <p>
-                            <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
-                        </p>
-                    </div>
+            
+            <!-- Affichage du panier -->
+            <div class="col-md-2 col-sm-12 hero-feature sameHeigth">
+                <!-- Panier -->
+                <div id="blocPanier">
+                    <!-- Ligne de titre du panier -->
+                    <div class="row text-center">
+                        <div class="col-md-12 col-sm-12 hero-feature">
+                            <h1> Panier </h1>
+                        </div>
+                    </div> 
+                    <!-- Ligne de contenu du panier -->
+                    <div class="row text-center thumbnail">
+                        <div class="col-md-12 col-sm-12 hero-feature">
+                            <p> Il n'y a pas d'article .. </p>
+                        </div>
+                    </div> 
                 </div>
             </div>
-
-            <div class="col-md-3 col-sm-6 hero-feature">
-                <div class="thumbnail">
-                    <img src="http://placehold.it/800x500" alt="">
-                    <div class="caption">
-                        <h3>Feature Label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        <p>
-                            <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-3 col-sm-6 hero-feature">
-                <div class="thumbnail">
-                    <img src="http://placehold.it/800x500" alt="">
-                    <div class="caption">
-                        <h3>Feature Label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        <p>
-                            <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-
+            
         </div>
-        <!-- /.row -->
-
         <hr>
-
         <!-- Footer -->
         <footer>
             <div class="row">
