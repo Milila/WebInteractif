@@ -18,6 +18,8 @@
     <link href="css/heroic-features.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
+    <script src="js/index.js"></script>
+ 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -94,25 +96,29 @@
                     
                     <!-- Ligne des images des bouquets -->
                     <div class="row text-center">
-                        <div class="col-md-3 col-sm-12 hero-feature thumbnail">
+                        <div id="divRose" class="col-md-3 col-sm-12 hero-feature thumbnail fleur">
                             <img src="./images/fleurs.jpg" alt="Fleurs" class="imagesFleurs">
-                            <h2>Une fleur ...</h2>
-                            <h3>2€</h3>
+                            <h2>Rose</h2>
+                            <h3>1€</h3>
+                            <button id="ajouterRoseBtn" onclick="ajouterRose()">Ajouter</button>
                         </div>
-                        <div class="col-md-3 col-sm-12 hero-feature thumbnail">
+                        <div id="divMargerite" class="col-md-3 col-sm-12 hero-feature thumbnail fleur">
                             <img src="./images/fleurs.jpg" alt="Fleurs" class="imagesFleurs">
-                            <h2>Une fleur ...</h2>
+                            <h2>Margerite</h2>
                             <h3>2€</h3>
+                            <button id="ajouterMargeriteBtn" onclick="ajouterMargerite()">Ajouter</button>
                         </div>
-                        <div class="col-md-3 col-sm-12 hero-feature thumbnail">
+                        <div id="divTulipe" class="col-md-3 col-sm-12 hero-feature thumbnail fleur">
                             <img src="./images/fleurs.jpg" alt="Fleurs" class="imagesFleurs">
-                            <h2>Une fleur ...</h2>
-                            <h3>2€</h3>
+                            <h2>Tulipe</h2>
+                            <h3>3€</h3>
+                            <button id="ajouterTulipeBtn" onclick="ajouterTulipe()">Ajouter</button>
                         </div>
-                        <div class="col-md-3 col-sm-12 hero-feature thumbnail">
+                        <div id="divMuguet" class="col-md-3 col-sm-12 hero-feature thumbnail fleur">
                             <img src="./images/fleurs.jpg" alt="Fleurs" class="imagesFleurs">
-                            <h2>Une fleur ...</h2>
-                            <h3>2€</h3>
+                            <h2>Muguet</h2>
+                            <h3>4€</h3>
+                            <button id="ajouterMuguetBtn" onclick="ajouterMuguet()">Ajouter</button>
                         </div>
                     </div>
                 </div>
@@ -165,7 +171,10 @@
                     <!-- Ligne de contenu du panier -->
                     <div class="row text-center thumbnail">
                         <div class="col-md-12 col-sm-12 hero-feature">
-                            <p> Il n'y a pas d'article .. </p>
+                            <div id="div_panier">
+                                
+                            </div>
+                            <p id="totalId"></p>
                         </div>
                     </div> 
                 </div>
